@@ -39,3 +39,13 @@ function disemvowel(str) {
   return newStr;
 }
 ```
+
+###Experience: 
+- Completed JS30 challenge 
+- HTML Academy 
+- FreeCodeCamp Responsive Web Design course 
+- RS School Course "JavaScript/Front-end. Stage 1"(In progress)
+
+###Languages: 
+- Russain (Native)
+- English (C1)
