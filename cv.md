@@ -40,12 +40,12 @@ function disemvowel(str) {
 }
 ```
 
-###Experience: 
+### Experience: 
 - Completed JS30 challenge 
 - HTML Academy 
 - FreeCodeCamp Responsive Web Design course 
 - RS School Course "JavaScript/Front-end. Stage 1"(In progress)
 
-###Languages: 
+### Languages: 
 - Russain (Native)
 - English (C1)
