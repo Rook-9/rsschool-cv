@@ -46,6 +46,7 @@ function disemvowel(str) {
 - FreeCodeCamp Responsive Web Design course 
 - RS School Course "JavaScript/Front-end. Stage 1"(In progress)
 
-### Languages: 
+### Languages and Education: 
 - Russain (Native)
 - English (C1)
+- Baechelors degree in management
