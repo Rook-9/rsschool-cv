@@ -1,0 +1,121 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kirill CV</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Kirill Pekurov: Frontend Developer</h1>
+        <img src="images/myImg.jpeg" alt="Image of a handsome man">
+        <nav>
+            <a href="#">Contact information</a>
+            <a href="#">Summary</a>
+            <a href="#">Skills</a>
+            <a href="#">Code example</a>
+            <a href="#">Experience</a>
+            <a href="#">Languages and Education</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="contact">
+            <h2>Contact information</h2>
+            <ul>
+                <li>
+                    <h3>Phone</h3>
+                    <p>+995 559 676 683</p>
+                </li>
+                <li>
+                    <h3>E-mail</h3>
+                    <p>krowllirik@gmail.com</p>
+                </li>
+                <li>
+                    <h3>Telegram</h3>
+                    <p>@Bol_gedor</p>
+                </li>
+                <li>
+                    <h3><a href="https://www.linkedin.com/in/kirill-pekurov-190526241/">My Linkedin</a></h3>
+                </li>
+            </ul>
+        </section>
+
+        <section class="summary">
+            <h2>Summary</h2>
+            <p>I have a massive experience as B2B and B2C sales manager.
+                In 2022 I've been forced to relocate from Russia into Georgia.
+                I decided to learn a new profession to be able to work and travel.
+                Positive mental attitude is about me. Deeply into meditation, world of warcraft, swimming, reading.
+                Now i am reading <a href="https://github.com/getify/You-Dont-Know-JS">"You don't know JS"</a>
+                So i am a fast pace learner, eager to new knowledge and my motivation is stronger then ever!</p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS</li>
+                <li>JavaScript (ES6)</li>
+                <li>Git</li>
+                <li>Sales</li>
+                <li>Teambuilding</li>
+                <li>Mentornship</li>
+            </ul>
+        </section>
+
+        <section class="example">
+            <h2>Code example</h2>
+            <h3>My project</h3>
+            <!-- add link to cv project -->
+            <a href="#">Here is link to my CV project</a>
+
+            <h3>Codewars KATA</h3>
+            <p>Trolls are attacking your comment section!
+                A common way to deal with this situation is to remove all of the vowels from the trolls' comments,
+                neutralizing the
+                threat.
+                Your task is to write a function that takes a string and return a new string with all vowels removed.
+                For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
+                Note: for this kata y isn't considered a vowel.</p>
+            <h3>Solution</h3>
+            <p>
+                function disemvowel(str) { <br>
+                const regex = /[aeiou]/gi;<br>
+                const newStr = str.replace(regex, '');<br>
+                return newStr;<br>
+                }<br>
+            </p>
+        </section>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>Completed JS30 challenge</li>
+                <li>HTML Academy</li>
+                <li>FreeCodeCamp Responsive Web Design course</li>
+                <li>RS School Course "JavaScript/Front-end. Stage 1"(In progress)</li>
+            </ul>
+        </section>
+
+        <section class="langauges">
+            <h2>Languages and Education</h2>
+            <ul>
+                <li>Russain (Native)</li>
+                <li>English (C1)</li>
+                <li>Baechelors degree in management</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://github.com/Rook-9">Link to my Github</a>
+        <a href="https://rs.school/"><img src="images/rsschool.png" alt="Rsschool fancy logo"></a>
+    </footer>
+</body>
+
+</html>
