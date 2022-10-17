@@ -11,52 +11,63 @@
 <body>
 
     <header>
-        <h1>Kirill Pekurov: Frontend Developer</h1>
-        <img src="images/myImg.jpeg" alt="Image of a handsome man">
+        <div class="wrapper">
+            <h1>Kirill Pekurov <br> Frontend Developer</h1>
+            <hr>
+            <figure>
+                <img src="images/myImg.jpeg" alt="Image of a handsome man">
+            </figure>
+        </div>
         <nav>
-            <a href="#">Contact information</a>
-            <a href="#">Summary</a>
-            <a href="#">Skills</a>
-            <a href="#">Code example</a>
-            <a href="#">Experience</a>
-            <a href="#">Languages and Education</a>
+            <ul>
+                <li><a href="#contactInfo">Contact information</a></li>
+                <li><a href="#summarySection">Summary</a></li>
+                <li><a href="#skillsSection">Skills</a></li>
+                <li><a href="#exampleSection">Code example</a></li>
+                <li><a href="#expirienceSection">Experience</a></li>
+                <li><a href="#languagesSection">Languages and Education</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
 
-        <section class="contact">
+        <section class="contact" id="contactInfo">
             <h2>Contact information</h2>
             <ul>
                 <li>
                     <h3>Phone</h3>
-                    <p>+995 559 676 683</p>
+                    <a href="tel:+995 559 676 683">+995 559 676 683</a>
                 </li>
                 <li>
                     <h3>E-mail</h3>
-                    <p>krowllirik@gmail.com</p>
+                    <a href="mailto:krowllirik@gmail.com">krowllirik@gmail.com</a>
                 </li>
                 <li>
                     <h3>Telegram</h3>
-                    <p>@Bol_gedor</p>
+                    <a href="http://t.me/Bol_gedor" target="_blank" rel="noopener noreferrer">@Bol_gedor</a>
                 </li>
                 <li>
-                    <h3><a href="https://www.linkedin.com/in/kirill-pekurov-190526241/">My Linkedin</a></h3>
+                    <h3>My Linkedin</h3>
+                    <a target="_blank" href="https://www.linkedin.com/in/kirill-pekurov-190526241/"
+                        rel="noopener noreferrer">Kirill Pekurov</a>
                 </li>
             </ul>
         </section>
 
-        <section class="summary">
-            <h2>Summary</h2>
-            <p>I have a massive experience as B2B and B2C sales manager.
-                In 2022 I've been forced to relocate from Russia into Georgia.
-                I decided to learn a new profession to be able to work and travel.
-                Positive mental attitude is about me. Deeply into meditation, world of warcraft, swimming, reading.
-                Now i am reading <a href="https://github.com/getify/You-Dont-Know-JS">"You don't know JS"</a>
-                So i am a fast pace learner, eager to new knowledge and my motivation is stronger then ever!</p>
+        <section class="summary" id="summarySection">
+            <div class="wrapper">
+                <h2>Summary</h2>
+                <p>I have a massive experience as B2B and B2C sales manager.
+                    In 2022 I've been forced to relocate from Russia into Georgia.
+                    I decided to learn a new profession to be able to work and travel.
+                    Positive mental attitude is about me. Deeply into meditation, world of warcraft, swimming, reading.
+                    Now I am reading <a href="https://github.com/getify/You-Dont-Know-JS">"You don't know JS"</a>
+                    So I am a fast pace learner, eager to new knowledge and my motivation is stronger then ever!</p>
+            </div>
         </section>
 
-        <section class="skills">
+        <section class="skills" id="skillsSection">
             <h2>Skills</h2>
             <ul>
                 <li>HTML, CSS</li>
@@ -68,31 +79,36 @@
             </ul>
         </section>
 
-        <section class="example">
+        <section class="example" id="exampleSection">
             <h2>Code example</h2>
-            <h3>My project</h3>
-            <!-- add link to cv project -->
-            <a href="#">Here is link to my CV project</a>
-
-            <h3>Codewars KATA</h3>
-            <p>Trolls are attacking your comment section!
-                A common way to deal with this situation is to remove all of the vowels from the trolls' comments,
-                neutralizing the
-                threat.
-                Your task is to write a function that takes a string and return a new string with all vowels removed.
-                For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
-                Note: for this kata y isn't considered a vowel.</p>
-            <h3>Solution</h3>
-            <p>
-                function disemvowel(str) { <br>
-                const regex = /[aeiou]/gi;<br>
-                const newStr = str.replace(regex, '');<br>
-                return newStr;<br>
-                }<br>
-            </p>
+            <section>
+                <h3>My project</h3>
+                <a href="https://github.com/Rook-9/rsschool-cv">Here is link to my CV project</a>
+            </section>
+            <section>
+                <h3>Codewars KATA</h3>
+                <p>Trolls are attacking your comment section!
+                    A common way to deal with this situation is to remove all of the vowels from the trolls' comments,
+                    neutralizing the
+                    threat.
+                    Your task is to write a function that takes a string and return a new string with all vowels
+                    removed.
+                    For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
+                    Note: for this kata y isn't considered a vowel.</p>
+                <h3>Solution</h3>
+                <pre>
+                    <code>
+                    function disemvowel(str) {
+                        const regex = /[aeiou]/gi;
+                        const newStr = str.replace(regex, '');
+                        return newStr;
+                    }
+                    </code>
+                </pre>
+            </section>
         </section>
 
-        <section class="experience">
+        <section class="experience" id="expirienceSection">
             <h2>Experience</h2>
             <ul>
                 <li>Completed JS30 challenge</li>
@@ -102,7 +118,7 @@
             </ul>
         </section>
 
-        <section class="langauges">
+        <section class="langauges" id="languagesSection">
             <h2>Languages and Education</h2>
             <ul>
                 <li>Russain (Native)</li>
@@ -114,6 +130,7 @@
 
     <footer>
         <a href="https://github.com/Rook-9">Link to my Github</a>
+        <time datetime="2022-10">October, 2022</time>
         <a href="https://rs.school/"><img src="images/rsschool.png" alt="Rsschool fancy logo"></a>
     </footer>
 </body>
